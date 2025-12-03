@@ -1,0 +1,6 @@
+role,description
+SystemA_Read,Read-only access to application data
+SystemA_Write,Create or modify application data
+SystemB_Admin,Administrative privileges for system configuration
+SharedDrive_Read,Read-only access to shared files
+RemoteAccess_User,Basic remote connectivity access
