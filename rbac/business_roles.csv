@@ -1,0 +1,6 @@
+role,description
+Teller-Basic,Standard access for routine operations
+Teller-Advanced,Extended access requiring additional authorization
+Lending-Analyst,Access to lending-related functions
+Finance-Viewer,Read-only access to financial data
+IT-Analyst,Standard access for IT operational tasks
