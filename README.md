@@ -19,3 +19,11 @@ The goal of this lab is to illustrate practical identity governance thinking, in
 
 ## 📁 Folder Structure
 
+iga-lab/
+├── rbac/               # Role and entitlement modeling
+├── lifecycle/          # Joiner / Mover / Leaver workflows
+├── certifications/     # Access review templates and examples
+├── audit/              # Audit summaries and evidence samples
+└── README.md
+```
+
