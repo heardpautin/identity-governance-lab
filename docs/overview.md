@@ -95,6 +95,41 @@ Audit is how organizations **prove** they comply with the frameworks and operate
 
 This end-to-end chain reflects the real structure of IAM, GRC, and Cloud Security in modern organizations — including the model described by the Bexar County hiring manager.
 
+## 📊 Visual Diagram — Framework → Identity → Cloud → Audit
+
+```
++-------------------+
+|   FRAMEWORKS      |
+| (NIST, ISO, CIS)  |
++---------+---------+
+          |
+          v
++-------------------+
+|  IDENTITY         |
+|  GOVERNANCE (IGA) |
+|  RBAC, JML, SoD   |
++---------+---------+
+          |
+          v
++-------------------+
+|   CLOUD SECURITY  |
+|  Enforcement Layer|
+|  Roles, Policies  |
++---------+---------+
+          |
+          v
++-------------------+
+|       AUDIT       |
+| Evidence, Logs,   |
+| Certifications    |
++-------------------+
+```
+
+Frameworks define the rules →  
+Identity governance implements them →  
+Cloud platforms enforce them →  
+Audit validates everything.
+
 ---
 
 ## 6. Purpose of This Lab  
