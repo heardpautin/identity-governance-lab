@@ -1,0 +1,6 @@
+business_role,entitlements
+Teller-Basic,SystemA_Read;SharedDrive_Read
+Teller-Advanced,SystemA_Read;SystemA_Write
+Lending-Analyst,SystemB_Admin
+Finance-Viewer,SharedDrive_Read
+IT-Analyst,SystemA_Read;RemoteAccess_User;SharedDrive_Read
