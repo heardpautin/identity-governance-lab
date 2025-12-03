@@ -1,4 +1,8 @@
 # Identity Governance & Administration (IGA) Lab
+![Status](https://img.shields.io/badge/Project%20Status-Active-brightgreen)
+![Purpose](https://img.shields.io/badge/Focus-Identity%20Governance-blue)
+![License](https://img.shields.io/badge/License-Open%20Use-lightgrey)
+
 
 This project demonstrates core Identity Governance & Administration (IGA) concepts using fictional but realistic data.
 It reflects how organizations design and maintain access controls using role modeling, lifecycle workflows, certifications, and audit practices.
