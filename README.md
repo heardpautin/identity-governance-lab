@@ -38,4 +38,7 @@ iga-lab/
     certifications/     - Access review templates and examples
     audit/              - Audit summaries and evidence samples
     README.md
+
+    This lab follows a framework-first model: frameworks define controls, identity governance implements them, cloud platforms enforce them, and audit validates the results.
+
 </pre>
