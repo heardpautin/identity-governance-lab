@@ -20,6 +20,14 @@ The goal of this lab is to illustrate practical identity governance thinking, in
 - Audit documentation and evidence readiness
 
 ---
+## Table of Contents
+- [Overview](#identity-governance--administration-iga-lab)
+- [Folder Structure](#-folder-structure)
+- [RBAC](rbac/)
+- [Lifecycle Workflows](lifecycle/)
+- [Certifications](certifications/)
+- [Audit Artifacts](audit/)
+- [Documentation](docs/)
 
 ## 📁 Folder Structure
 
