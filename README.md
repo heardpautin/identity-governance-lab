@@ -1,9 +1,9 @@
 # Identity Governance & Administration (IGA) Lab
 
-This project demonstrates core Identity Governance & Administration (IGA) concepts using fictional but realistic data.  
+This project demonstrates core Identity Governance & Administration (IGA) concepts using fictional but realistic data.
 It reflects how organizations design and maintain access controls using role modeling, lifecycle workflows, certifications, and audit practices.
 
-All examples are fully vendor-neutral and platform-agnostic.  
+All examples are fully vendor-neutral and platform-agnostic.
 No real systems, employers, or proprietary processes are referenced.
 
 The goal of this lab is to illustrate practical identity governance thinking, including:
@@ -20,10 +20,8 @@ The goal of this lab is to illustrate practical identity governance thinking, in
 ## 📁 Folder Structure
 
 iga-lab/
-├── rbac/               # Role and entitlement modeling
-├── lifecycle/          # Joiner / Mover / Leaver workflows
-├── certifications/     # Access review templates and examples
-├── audit/              # Audit summaries and evidence samples
-└── README.md
-```
-
+    rbac/               # Role and entitlement modeling
+    lifecycle/          # Joiner / Mover / Leaver workflows
+    certifications/     # Access review templates and examples
+    audit/              # Audit summaries and evidence samples
+    README.md
