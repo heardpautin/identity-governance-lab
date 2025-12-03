@@ -1,31 +1,75 @@
 # IGA Architecture Overview
 
-This document provides a conceptual view of how identity governance components interact in a typical organization.
+This document provides a conceptual view of how identity governance components interact in a typical organization. It follows a **framework → identity governance → cloud enforcement → audit** model.
+
+---
+
+## Architecture Flow (High-Level)
+
+```
+[Frameworks] 
+     ↓
+[Identity Governance]
+     ↓
+[Cloud Security Enforcement]
+     ↓
+[Audit & Evidence]
+```
+
+This model reflects modern identity-first, framework-led security and governance programs.
+
+---
 
 ## Core Components
 
-- **Authoritative Source**  
-  Stores identity attributes (HR system or equivalent).
+### **1. Authoritative Source**  
+Stores identity attributes and employment status (HR system or equivalent).  
+This is the starting point for Joiner / Mover / Leaver events.
 
-- **Identity Repository**  
-  Central directory holding user identities and attributes.
+### **2. Identity Repository**  
+Central identity directory storing accounts, attributes, and role assignments.
 
-- **Access Request / Approval Workflow**  
-  Defines how access is requested, approved, and tracked.
+### **3. Access Request / Approval Workflow**  
+Controls how access is requested, approved, and tracked.  
+Can be manual, semi-automated, or fully automated.
 
-- **Governance Engine**  
-  Evaluates role models, SoD rules, certifications, and lifecycle workflows.
+### **4. Governance Engine**  
+Implements framework requirements through:
+- Role modeling (RBAC)
+- SoD rule evaluation
+- Lifecycle policies
+- Certifications and attestations
 
-- **Provisioning Layer**  
-  Applies adds, changes, and removals in connected systems.
+### **5. Provisioning Layer**  
+Applies adds, changes, and removals in connected systems.  
+May include:
+- Direct connectors  
+- API-based provisioning  
+- Ticket-based provisioning  
 
-- **Audit Layer**  
-  Captures logs, artifacts, and evidence for compliance.
+### **6. Cloud Security Enforcement Layer**  
+Applies identity decisions through:
+- Roles and policies  
+- Conditional access  
+- Privilege boundaries  
+- Logging and monitoring  
+
+### **7. Audit Layer**  
+Validates that governance controls are working by:
+- Capturing logs and evidence  
+- Storing certification results  
+- Demonstrating policy and lifecycle compliance  
+
+---
 
 ## Identity Lifecycle Coverage
 
-- Joiner  
-- Mover  
-- Leaver  
-- Certification cycles  
-- Periodic role and entitlement reviews
+- **Joiner** — Initial identity creation and baseline role assignment  
+- **Mover** — Role changes triggered by job or department changes  
+- **Leaver** — Disablement and access removal  
+- **Certification Cycles** — Periodic access reviews  
+- **Entitlement Reviews** — Ensures mappings and roles remain accurate  
+
+---
+
+This architecture reflects the structure that most modern IAM, GRC, and Cloud Security programs follow.
